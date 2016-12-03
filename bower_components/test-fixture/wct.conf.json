@@ -1,5 +1,5 @@
 {
-  "verbose": true,
+  "suites": ["Polymer-assignment/test"],
   "plugins": {
     "sauce": {
       "browsers": [{
