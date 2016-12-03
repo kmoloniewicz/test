@@ -14,8 +14,8 @@ addons:
 before_script:
 - npm install -g bower polylint web-component-tester
 - bower install
-script:
-- xvfb-run wct
+script: test/icon-toggle-test.html
+
 env:
   global:
   - secure: MW01W14CHt59QzSjv0vxFHngNmiU4CneTSUfDrChVk+KKh1ukGKARtebVAt/yVqVShDjQ/XdnAdojgxfumvc//dLzSMMlUmSykwSM7tqPm+Ds/sytnmfPwGvCkBpxzYyntugg2HXRFJwH1usmkAwRApzhdvAQejRqpVAVSdU6H7bcy4iKVajeOSW3P8ZLLWk0H+UhFp2JJhub1+uILuhZIWGXpCO2V9ObqOCGzMiUseIQ7BYb5UOej3E5HVJ+crN1Clt2IEvwDyjeImhsD4LuaQqhUh9w7NvTGcvelUtyofULcu4+n9j9Ve6tP3VxPlFZCBoEtODoeJxh1sQNqLgCUlVsKaxMlAqdTfGdKl4gLo4mIBHWsZnbG0JE8Mj1a242PQM8YJrKVYXOsB4R900q0QgzmXH0IOvmsfC0gxWwNpUfF4OfCpez0DmYJP//2XNkEtfoJcutpuiVUhjs+R2p4j1nO4wys1Uh67hNKWrhmOU3qvSc4J5TjHDa/SxdDoXJ2fmbwi1Q52fDY9QJn+fvYlofSaQESKNviM7SOtmzvksh7pPdpjHuKH8Ayw1CvVBxxQbqqwLZjS8Dht7+uN5j/HpBQdAcvrYu73FODZfGZlbGhg8CkkrWgSXE9zOVSwFAdMi7p71Vx6p0AzEPv/LJtcnz+SI9r8brLkj3Var0WI=
