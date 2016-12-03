@@ -12,6 +12,7 @@ addons:
     packages:
     - google-chrome-stable
 before_script:
+- cd project
 - npm install -g bower polylint web-component-tester
 - bower install
 script: test/icon-toggle-test.html
