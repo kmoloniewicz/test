@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 language: node_js
 node_js: stable
 dist: trusty
@@ -18,6 +17,5 @@ before_script:
 script:
 - xvfb-run wct
 - if [ "${TRAVIS_PULL_REQUEST}" = "false" ]; then wct -s 'default'; fi
-=======
->>>>>>> origin/master
+
 
