@@ -1,5 +1,4 @@
 {
-  "suites": ["/test"],
   "plugins": {
     "sauce": {
       "browsers": [{

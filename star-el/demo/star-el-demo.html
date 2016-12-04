@@ -1,0 +1,26 @@
+<link rel="import" href="../../polymer/polymer.html">
+<link rel="import" href="../../iron-icons/iron-icons.html">
+<link rel="import" href="../star-el.html">
+
+
+<dom-module id="star-el-demo">
+  <template>
+    <style>
+      :host {
+        font-family: sans-serif;
+        --icon-toggle-color: white;
+        --icon-toggle-outline-color: black;
+        --icon-toggle-pressed-color: yellow;
+      }
+    </style>
+
+    <icon-toggle toggle-icon="star"></icon-toggle>
+    
+  </template>
+
+  <script>
+    Polymer({
+      is: "star-el-demo",
+    });
+  </script>
+</dom-module>
